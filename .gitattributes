@@ -1,0 +1,6 @@
+# 二进制文件：禁止任何换行/文本转换
+*.zip  binary
+*.exe  binary
+
+# 脚本保持 CRLF，便于 Windows 直接双击运行
+*.bat  text eol=crlf
